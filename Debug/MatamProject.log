@@ -1,0 +1,21 @@
+﻿  As4_main.c
+c:\users\leptop-pc\documents\visual studio 2015\projects\matamproject\matamproject\as4\as4_main.c(62): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\users\leptop-pc\documents\visual studio 2015\projects\matamproject\matamproject\as4\as4_main.c(75): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: see declaration of 'scanf'
+c:\users\leptop-pc\documents\visual studio 2015\projects\matamproject\matamproject\as4\as4_main.c(82): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: see declaration of 'scanf'
+c:\users\leptop-pc\documents\visual studio 2015\projects\matamproject\matamproject\as4\as4_main.c(162): warning C4013: '_getch' undefined; assuming extern returning int
+c:\users\leptop-pc\documents\visual studio 2015\projects\matamproject\matamproject\as4\as4_main.c(96): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: see declaration of 'scanf'
+c:\users\leptop-pc\documents\visual studio 2015\projects\matamproject\matamproject\as4\as4_main.c(120): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: see declaration of 'scanf'
+c:\users\leptop-pc\documents\visual studio 2015\projects\matamproject\matamproject\as4\as4_main.c(127): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: see declaration of 'scanf'
+c:\users\leptop-pc\documents\visual studio 2015\projects\matamproject\matamproject\as4\as4_main.c(154): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: see declaration of 'scanf'
+  As4_implement.c
+c:\users\leptop-pc\documents\visual studio 2015\projects\matamproject\matamproject\as4\as4_implement.c(50): warning C4013: 'putch' undefined; assuming extern returning int
+  Generating Code...
+  MatamProject.vcxproj -> C:\Users\Leptop-Pc\Documents\Visual Studio 2015\Projects\MatamProject\Debug\MatamProject.exe
+  MatamProject.vcxproj -> C:\Users\Leptop-Pc\Documents\Visual Studio 2015\Projects\MatamProject\Debug\MatamProject.pdb (Full PDB)

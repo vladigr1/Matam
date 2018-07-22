@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\leptop-pc\documents\visual studio 2015\projects\matamproject\matamproject\as4\</FILEPATH>
+      <FILENAME>as4_implement.c</FILENAME>
+      <LINE>50</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>28278</DEFECTCODE>
+    <DESCRIPTION>Function putch appears with no prototype in scope.  Only limited analysis can be performed. Include the appropriate header or add a prototype. This warning also occurs if parameter or return types are omitted in a function definition.</DESCRIPTION>
+    <FUNCTION>InOrderPrintRecursive</FUNCTION>
+    <DECORATED>InOrderPrintRecursive</DECORATED>
+    <FUNCLINE>45</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\leptop-pc\documents\visual studio 2015\projects\matamproject\matamproject\as4\</FILEPATH>
+      <FILENAME>as4_implement.c</FILENAME>
+      <LINE>60</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>28278</DEFECTCODE>
+    <DESCRIPTION>Function putch appears with no prototype in scope.  Only limited analysis can be performed. Include the appropriate header or add a prototype. This warning also occurs if parameter or return types are omitted in a function definition.</DESCRIPTION>
+    <FUNCTION>PrintKHighestRecursive</FUNCTION>
+    <DECORATED>PrintKHighestRecursive</DECORATED>
+    <FUNCLINE>54</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\leptop-pc\documents\visual studio 2015\projects\matamproject\matamproject\as4\</FILEPATH>
+      <FILENAME>as4_implement.c</FILENAME>
+      <LINE>124</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'manager'. See line 108 for an earlier location where this can occur</DESCRIPTION>
+    <FUNCTION>AddNode</FUNCTION>
+    <DECORATED>AddNode</DECORATED>
+    <FUNCLINE>100</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\leptop-pc\documents\visual studio 2015\projects\matamproject\matamproject\as4\</FILEPATH>
+        <FILENAME>as4_implement.c</FILENAME>
+        <LINE>102</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\leptop-pc\documents\visual studio 2015\projects\matamproject\matamproject\as4\</FILEPATH>
+        <FILENAME>as4_implement.c</FILENAME>
+        <LINE>102</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\leptop-pc\documents\visual studio 2015\projects\matamproject\matamproject\as4\</FILEPATH>
+        <FILENAME>as4_implement.c</FILENAME>
+        <LINE>103</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\leptop-pc\documents\visual studio 2015\projects\matamproject\matamproject\as4\</FILEPATH>
+        <FILENAME>as4_implement.c</FILENAME>
+        <LINE>107</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\leptop-pc\documents\visual studio 2015\projects\matamproject\matamproject\as4\</FILEPATH>
+        <FILENAME>as4_implement.c</FILENAME>
+        <LINE>108</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\leptop-pc\documents\visual studio 2015\projects\matamproject\matamproject\as4\</FILEPATH>
+        <FILENAME>as4_implement.c</FILENAME>
+        <LINE>109</LINE>
+        <COLUMN>17</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'manager' may be NULL (Skip this loop)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\leptop-pc\documents\visual studio 2015\projects\matamproject\matamproject\as4\</FILEPATH>
+        <FILENAME>as4_implement.c</FILENAME>
+        <LINE>124</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'manager' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\leptop-pc\documents\visual studio 2015\projects\matamproject\matamproject\as4\</FILEPATH>
+      <FILENAME>as4_implement.c</FILENAME>
+      <LINE>135</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>28278</DEFECTCODE>
+    <DESCRIPTION>Function putch appears with no prototype in scope.  Only limited analysis can be performed. Include the appropriate header or add a prototype. This warning also occurs if parameter or return types are omitted in a function definition.</DESCRIPTION>
+    <FUNCTION>PrintInorder</FUNCTION>
+    <DECORATED>PrintInorder</DECORATED>
+    <FUNCLINE>128</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\leptop-pc\documents\visual studio 2015\projects\matamproject\matamproject\as4\</FILEPATH>
+      <FILENAME>as4_implement.c</FILENAME>
+      <LINE>169</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>28278</DEFECTCODE>
+    <DESCRIPTION>Function putch appears with no prototype in scope.  Only limited analysis can be performed. Include the appropriate header or add a prototype. This warning also occurs if parameter or return types are omitted in a function definition.</DESCRIPTION>
+    <FUNCTION>HighestKey</FUNCTION>
+    <DECORATED>HighestKey</DECORATED>
+    <FUNCLINE>155</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\leptop-pc\documents\visual studio 2015\projects\matamproject\matamproject\as4\</FILEPATH>
+      <FILENAME>as4_implement.c</FILENAME>
+      <LINE>168</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'highest'.</DESCRIPTION>
+    <FUNCTION>HighestKey</FUNCTION>
+    <DECORATED>HighestKey</DECORATED>
+    <FUNCLINE>155</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\leptop-pc\documents\visual studio 2015\projects\matamproject\matamproject\as4\</FILEPATH>
+        <FILENAME>as4_implement.c</FILENAME>
+        <LINE>157</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'highest' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\leptop-pc\documents\visual studio 2015\projects\matamproject\matamproject\as4\</FILEPATH>
+        <FILENAME>as4_implement.c</FILENAME>
+        <LINE>158</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\leptop-pc\documents\visual studio 2015\projects\matamproject\matamproject\as4\</FILEPATH>
+        <FILENAME>as4_implement.c</FILENAME>
+        <LINE>159</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'manager-&gt;size==0' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\leptop-pc\documents\visual studio 2015\projects\matamproject\matamproject\as4\</FILEPATH>
+        <FILENAME>as4_implement.c</FILENAME>
+        <LINE>163</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'curNode!=(((void *)0))' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\leptop-pc\documents\visual studio 2015\projects\matamproject\matamproject\as4\</FILEPATH>
+        <FILENAME>as4_implement.c</FILENAME>
+        <LINE>167</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\leptop-pc\documents\visual studio 2015\projects\matamproject\matamproject\as4\</FILEPATH>
+        <FILENAME>as4_implement.c</FILENAME>
+        <LINE>168</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'highest' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\leptop-pc\documents\visual studio 2015\projects\matamproject\matamproject\as4\</FILEPATH>
+      <FILENAME>as4_implement.c</FILENAME>
+      <LINE>184</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>28278</DEFECTCODE>
+    <DESCRIPTION>Function putch appears with no prototype in scope.  Only limited analysis can be performed. Include the appropriate header or add a prototype. This warning also occurs if parameter or return types are omitted in a function definition.</DESCRIPTION>
+    <FUNCTION>PrintKHighest</FUNCTION>
+    <DECORATED>PrintKHighest</DECORATED>
+    <FUNCLINE>172</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
